@@ -24,14 +24,14 @@ We can use
 
 1. What brand was this email tailored to impersonate?
 
-![image.png](assets/imgs/Phishing-Tools/image.png)
+![image.png](/assets/Imgs/Phishing-Tools/image.png)
 
 > Answer: NETFLIX
 > 
 
 1. What is the From email address?
 
-![image.png](assets/imgs/Phishing-Tools/image%201.png)
+![image.png](/assets/imgs/Phishing-Tools/image%201.png)
 
 > Answer: [JGQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.com](mailto:JGQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.com)
 > 
@@ -40,13 +40,13 @@ We can use
 
 Use more option on the right side and go on view source. In the source you can see X-Originating - IP : [209.85.167.226].
 
-![image.png](assets/imgs/Phishing-Tools/image%202.png)
+![image.png](/assets/imgs/Phishing-Tools/image%202.png)
 
  Now lets Defang the IP .
 
 We can use CyberChef for defang :
 
-![image.png](assets/imgs/Phishing-Tools/image%203.png)
+![image.png](/assets/imgs/Phishing-Tools/image%203.png)
 
 > Answer: 209[.]85[.]167[.]226
 > 
@@ -55,7 +55,7 @@ We can use CyberChef for defang :
 
 We cab find the information in the Return-path of the mail :
 
-![image.png](assets/imgs/Phishing-Tools/image%204.png)
+![image.png](/assets/imgs/Phishing-Tools/image%204.png)
 
 We will defang it with CyberChef
 
@@ -77,7 +77,7 @@ Defang it with CyberChef
 
 1. What does AnyRun classify this email as?
 
-![image.png](assets/imgs/Phishing-Tools/image%205.png)
+![image.png](/assets/imgs/Phishing-Tools/image%205.png)
 
 > Answer: Suspicious Activity.
 > 
@@ -87,15 +87,15 @@ Defang it with CyberChef
 > 
 > 
 
-![image.png](assets/imgs/Phishing-Tools/image%206.png)
+![image.png](/assets/imgs/Phishing-Tools/image%206.png)
 
 1. What is the SHA 256 hash for the PDF file?
 
 The hash is not directly mentioned so either by clicking on **Text report** or directly on the pdf file(Payment-update.pdf) we can get the value of SHA256
 
-![image.png](assets/imgs/Phishing-Tools/image%207.png)
+![image.png](/assets/imgs/Phishing-Tools/image%207.png)
 
-![image.png](assets/imgs/Phishing-Tools/image%208.png)
+![image.png](/assets/imgs/Phishing-Tools/image%208.png)
 
 > Answer: cc6f1a04b10bcb168aeec8d870b97bd7c20fc161e8310b5bce1af8ed420e2c24.
 > 
@@ -104,7 +104,7 @@ The hash is not directly mentioned so either by clicking on **Text report** or d
 
 In the same **Text report,**  go to “Connections” section. We can see two IP marked as malicious.
 
-![image.png](assets/imgs/Phishing-Tools/image%209.png)
+![image.png](/assets/imgs/Phishing-Tools/image%209.png)
 
 Defang them using CyberChef
 
@@ -115,7 +115,7 @@ Defang them using CyberChef
 
 Now scroll to the “Threats” section. 
 
-![image.png](assets/imgs/Phishing-Tools/image%2010.png)
+![image.png](/assets/imgs/Phishing-Tools/image%2010.png)
 
 > Answer: svchost.exe
 > 
@@ -126,21 +126,21 @@ Now scroll to the “Threats” section.
 
 1. What is this analysis classified as?
 
-![image.png](assets/imgs/Phishing-Tools/image%2011.png)
+![image.png](/assets/imgs/Phishing-Tools/image%2011.png)
 
 > Answer: Malicious activity
 > 
 
 1. What is the name of the Excel file?
 
-![image.png](assets/imgs/Phishing-Tools/image%2012.png)
+![image.png](/assets/imgs/Phishing-Tools/image%2012.png)
 
 > Answer: CBJ200620039539.xlsx
 > 
 
 1. What is the SHA 256 hash for the file?
 
-![image.png](assets/imgs/Phishing-Tools/image%2013.png)
+![image.png](/assets/imgs/Phishing-Tools/image%2013.png)
 
 > Answer: 5f94a66e0ce78d17afc2dd27fc17b44b3ffc13ac5f42d3ad6a5dcfb36715f3eb
 > 
@@ -149,7 +149,7 @@ Now scroll to the “Threats” section.
 
 Look under Network activity section in DNS requests
 
-![image.png](assets/imgs/Phishing-Tools/image%2014.png)
+![image.png](/assets/imgs/Phishing-Tools/image%2014.png)
 
 Defang them using CyberChef
 
@@ -160,7 +160,7 @@ Defang them using CyberChef
 
 Look at HTTP connections just above DNS requests 
 
-![image.png](assets/imgs/Phishing-Tools/image%2015.png)
+![image.png](/assets/imgs/Phishing-Tools/image%2015.png)
 
 Defang it using CyberChef.
 
@@ -171,7 +171,7 @@ Defang it using CyberChef.
 
 The vulnerability is mentioned in the same report, scroll to the top again 
 
-![image.png](assets/imgs/Phishing-Tools/image%2016.png)
+![image.png](/assets/imgs/Phishing-Tools/image%2016.png)
 
 > Answer: cve-2017-11882
 > 
