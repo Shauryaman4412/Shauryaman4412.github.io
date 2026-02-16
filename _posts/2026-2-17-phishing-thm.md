@@ -4,7 +4,7 @@ date: 2026-2-17 00:01:00 0000+
 tags: [WriteUp, Phishing, CyberChef, VirusTotal, Message Header Analyzer,  Message Transfer Agent, URLScan.io, Talos Reputation Center, URL Extractor, Any.Run, TryHackMe ]
 categories: [WriteUps, TryHackMe]
 image:          
-  path: /assets/imgs/Phishing-Tools/tryhackme.png
+  path: /assets/Imgs/Phishing-Tools/tryhackme.png
 ---
 ---
 
