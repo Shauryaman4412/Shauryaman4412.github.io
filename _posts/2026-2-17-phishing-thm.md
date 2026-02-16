@@ -3,11 +3,8 @@ title: "Phishing Analysis Tools"
 date: 2026-2-17 00:01:00 0000+
 tags: [WriteUp, Phishing, CyberChef, VirusTotal, Message Header Analyzer,  Message Transfer Agent, URLScan.io, Talos Reputation Center, URL Extractor, Any.Run, TryHackMe ]
 categories: [WriteUps, TryHackMe]
-image:          
-  path: /assets/Imgs/Phishing-Tools/tryhackme.png
 ---
 ---
-
 In this room, we will look at various tools that will aid us in analyzing phishing emails.
 
 Room Link : https://tryhackme.com/room/phishingemails3tryoe
