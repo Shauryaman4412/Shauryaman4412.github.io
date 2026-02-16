@@ -30,7 +30,7 @@ We can use
 
 ![image.png](/assets/imgs/Phishing-Tools/image%201.png)
 
-> Answer: [JGQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.com](mailto:JGQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.com)
+> Answer: JGQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.com
 > 
 
 1. What is the originating IP? Defang the IP address. 
