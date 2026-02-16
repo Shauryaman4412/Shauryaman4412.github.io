@@ -23,7 +23,7 @@ We can use
 
 ![image.png](/assets/Imgs/Phishing-Tools/image.png)
 
-> Answer: NETFLIX
+> Answer: NETFLIX.
 > 
 
 1. What is the From email address?
