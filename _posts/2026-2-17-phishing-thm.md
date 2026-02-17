@@ -26,14 +26,14 @@ We can use
 > Answer: NETFLIX.
 > 
 
-1. What is the From email address?
+2. What is the From email address?
 
 ![image.png](/assets/Imgs/Phishing-Tools/image%201.png)
 
 > Answer: JGQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.com.
 > 
 
-1. What is the originating IP? Defang the IP address. 
+3. What is the originating IP? Defang the IP address. 
 
 Use more option on the right side and go on view source. In the source you can see X-Originating - IP : [209.85.167.226].
 
@@ -48,7 +48,7 @@ We can use CyberChef for defang :
 > Answer: 209[.]85[.]167[.]226
 > 
 
-1. From what you can gather, what do you think will be a domain of interest? Defang the domain.
+4. From what you can gather, what do you think will be a domain of interest? Defang the domain.
 
 We cab find the information in the Return-path of the mail :
 
@@ -59,7 +59,7 @@ We will defang it with CyberChef
 > Answer: etekno[.]xyz
 > 
 
-1. What is the shortened URL? Defang the URL.
+5. What is the shortened URL? Defang the URL.
 
 We can easily spot the URL on the red button. Right click on it and  select “Copy Link Location”.
 
@@ -86,7 +86,7 @@ Defang it with CyberChef
 
 ![image.png](/assets/Imgs/Phishing-Tools/image%206.png)
 
-1. What is the SHA 256 hash for the PDF file?
+2. What is the SHA 256 hash for the PDF file?
 
 The hash is not directly mentioned so either by clicking on **Text report** or directly on the pdf file(Payment-update.pdf) we can get the value of SHA256
 
@@ -97,7 +97,7 @@ The hash is not directly mentioned so either by clicking on **Text report** or d
 > Answer: cc6f1a04b10bcb168aeec8d870b97bd7c20fc161e8310b5bce1af8ed420e2c24.
 > 
 
-1. What two IP addresses are classified as malicious? Defang the IP addresses. (answer: **IP_ADDR,IP_ADDR**)
+3. What two IP addresses are classified as malicious? Defang the IP addresses. (answer: **IP_ADDR,IP_ADDR**)
 
 In the same **Text report,**  go to “Connections” section. We can see two IP marked as malicious.
 
@@ -108,7 +108,7 @@ Defang them using CyberChef
 > Answer: 2[.]16[.]107[.]24,2[.]16[.]107[.]83
 > 
 
-1. What Windows process was flagged as **Potentially Bad Traffic**?
+4. What Windows process was flagged as **Potentially Bad Traffic**?
 
 Now scroll to the “Threats” section. 
 
@@ -128,14 +128,14 @@ Now scroll to the “Threats” section.
 > Answer: Malicious activity
 > 
 
-1. What is the name of the Excel file?
+2. What is the name of the Excel file?
 
 ![image.png](/assets/Imgs/Phishing-Tools/image%2012.png)
 
 > Answer: CBJ200620039539.xlsx
 > 
 
-1. What is the SHA 256 hash for the file?
+3. What is the SHA 256 hash for the file?
 
 ![image.png](/assets/Imgs/Phishing-Tools/image%2013.png)
 
@@ -153,7 +153,7 @@ Defang them using CyberChef
 > Answer: biz9holdings[.]com,findresults[.]site,ww38[.]findresults[.]site
 > 
 
-1. What IP addresses are listed as malicious? Defang the IP addresses & submit answers from lowest to highest. (answer: **IP1,IP2,IP3**)
+4. What IP addresses are listed as malicious? Defang the IP addresses & submit answers from lowest to highest. (answer: **IP1,IP2,IP3**)
 
 Look at HTTP connections just above DNS requests 
 
@@ -164,7 +164,7 @@ Defang it using CyberChef.
 > Answer: 75[.]2[.]11[.]242,103[.]224[.]182[.]251,204[.]11[.]56[.]48
 > 
 
-1. What vulnerability does this malicious attachment attempt to exploit?
+5. What vulnerability does this malicious attachment attempt to exploit?
 
 The vulnerability is mentioned in the same report, scroll to the top again 
 
@@ -172,12 +172,3 @@ The vulnerability is mentioned in the same report, scroll to the top again
 
 > Answer: cve-2017-11882
 > 
-
----
-
-## Task 10: Conclusion
-
-1. Read the above
-
-> No answer needed
->
