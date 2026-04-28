@@ -172,3 +172,11 @@ The vulnerability is mentioned in the same report, scroll to the top again
 
 > Answer: cve-2017-11882
 > 
+---
+
+## Task 10: Conclusion
+
+1. Read the above
+
+> No answer needed
+>
