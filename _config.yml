@@ -16,10 +16,10 @@ timezone: Asia/Kolkata
 
 title: Shauryaman Menaria # the main title
 
-tagline: Blue Teamer | Security + | Security Researcher | Learner # it will display as the subtitle
+tagline: Security + | Security Researcher | Learner # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Part-time log detective, full-time cybersecurity nerd. I enjoy chasing down suspicious IPs, decoding attacker behavior, and building tools that make defenders faster. If there’s an alert, I’m curious. If there’s a pattern, I’m obsessed. Always learning, always improving.
+  Part-time log detective, full-time cybersecurity nerd. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
